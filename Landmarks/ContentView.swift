@@ -19,13 +19,13 @@ struct ContentView: View {
                 .padding(.bottom, -130)
 
             VStack(alignment: .leading) {
-                Text("Turtle Rock")
+                Text("Munchlax")
                     .font(.title)
                 HStack {
-                    Text("Joshua Tree National Park")
+                    Text("Big Eater")
                         .font(.subheadline)
                     Spacer()
-                    Text("California")
+                    Text("Pokemon")
                         .font(.subheadline)
                 }
             }
