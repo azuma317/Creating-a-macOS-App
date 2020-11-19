@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+    var landmark: Landmark
+
     var body: some View {
         VStack {
             MapView()
@@ -33,11 +35,12 @@ struct LandmarkDetail: View {
 
             Spacer()
         }
+        .navigationBarTitle(Text(landmark.name), displayMode: .inline)
     }
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail()
+        LandmarkDetail(landmark: landmarkData[0])
     }
 }
