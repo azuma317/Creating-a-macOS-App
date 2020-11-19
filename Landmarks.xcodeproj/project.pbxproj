@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F2B0DD11256112A3001C091F /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD10256112A3001C091F /* LandmarksApp.swift */; };
-		F2B0DD13256112A3001C091F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD12256112A3001C091F /* ContentView.swift */; };
+		F2B0DD13256112A3001C091F /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD12256112A3001C091F /* LandmarkDetail.swift */; };
 		F2B0DD15256112A4001C091F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B0DD14256112A4001C091F /* Assets.xcassets */; };
 		F2B0DD18256112A4001C091F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B0DD17256112A4001C091F /* Preview Assets.xcassets */; };
 		F2B0DD23256112A4001C091F /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD22256112A4001C091F /* LandmarksTests.swift */; };
 		F2B0DD2E256112A4001C091F /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD2D256112A4001C091F /* LandmarksUITests.swift */; };
 		F2B0DD422562B3E5001C091F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD412562B3E5001C091F /* CircleImage.swift */; };
 		F2B0DD472562B8A8001C091F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD462562B8A8001C091F /* MapView.swift */; };
-		F2B0DD5C2562C207001C091F /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD5B2562C207001C091F /* Landmark.swift */; };
+		F2B1DBE7256563B50053146E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1DBE6256563B50053146E /* Landmark.swift */; };
+		F2B1DBEC256565110053146E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1DBEB256565110053146E /* LandmarkRow.swift */; };
+		F2B1DBF2256567020053146E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1DBF1256567020053146E /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 /* Begin PBXFileReference section */
 		F2B0DD0D256112A3001C091F /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B0DD10256112A3001C091F /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
-		F2B0DD12256112A3001C091F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2B0DD12256112A3001C091F /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		F2B0DD14256112A4001C091F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2B0DD17256112A4001C091F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2B0DD19256112A4001C091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,8 +52,10 @@
 		F2B0DD2F256112A4001C091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B0DD412562B3E5001C091F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		F2B0DD462562B8A8001C091F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		F2B0DD5B2562C207001C091F /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		F2B1DBD225655F9C0053146E /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		F2B1DBE6256563B50053146E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		F2B1DBEB256565110053146E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		F2B1DBF1256567020053146E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				F2B0DD10256112A3001C091F /* LandmarksApp.swift */,
-				F2B0DD12256112A3001C091F /* ContentView.swift */,
+				F2B0DD12256112A3001C091F /* LandmarkDetail.swift */,
+				F2B1DBEB256565110053146E /* LandmarkRow.swift */,
 				F2B0DD4C2562C0C7001C091F /* Models */,
 				F2B0DD4B2562C01A001C091F /* Supporting Views */,
 				F2B1DBD125655F6E0053146E /* Resources */,
@@ -152,7 +157,8 @@
 		F2B0DD4C2562C0C7001C091F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F2B0DD5B2562C207001C091F /* Landmark.swift */,
+				F2B1DBE6256563B50053146E /* Landmark.swift */,
+				F2B1DBF1256567020053146E /* Data.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -294,11 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B0DD13256112A3001C091F /* ContentView.swift in Sources */,
+				F2B0DD13256112A3001C091F /* LandmarkDetail.swift in Sources */,
 				F2B0DD472562B8A8001C091F /* MapView.swift in Sources */,
 				F2B0DD11256112A3001C091F /* LandmarksApp.swift in Sources */,
 				F2B0DD422562B3E5001C091F /* CircleImage.swift in Sources */,
-				F2B0DD5C2562C207001C091F /* Landmark.swift in Sources */,
+				F2B1DBEC256565110053146E /* LandmarkRow.swift in Sources */,
+				F2B1DBE7256563B50053146E /* Landmark.swift in Sources */,
+				F2B1DBF2256567020053146E /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
