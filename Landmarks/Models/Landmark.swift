@@ -31,9 +31,9 @@ struct Landmark: Hashable, Codable, Identifiable {
 }
 
 extension Landmark {
-//    var image: Image {
-//        ImageStore.shared.image(name: imageName)
-//    }
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
+    }
 }
 
 struct Coordinates: Hashable, Codable {

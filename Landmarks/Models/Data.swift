@@ -39,6 +39,8 @@ final class ImageStore {
 
     fileprivate static var scale = 2
 
+    static var shared = ImageStore()
+
     func image(name: String) -> Image {
         let index = _guaranteeImage(name: name)
 
