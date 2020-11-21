@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2400B742568E15B00AAFB44 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2400B732568E15B00AAFB44 /* LandmarkList.swift */; };
 		F2B0DD11256112A3001C091F /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD10256112A3001C091F /* LandmarksApp.swift */; };
 		F2B0DD13256112A3001C091F /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD12256112A3001C091F /* LandmarkDetail.swift */; };
 		F2B0DD15256112A4001C091F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B0DD14256112A4001C091F /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2400B732568E15B00AAFB44 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		F2B0DD0D256112A3001C091F /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B0DD10256112A3001C091F /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		F2B0DD12256112A3001C091F /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				F2B0DD10256112A3001C091F /* LandmarksApp.swift */,
+				F2400B732568E15B00AAFB44 /* LandmarkList.swift */,
 				F2B0DD12256112A3001C091F /* LandmarkDetail.swift */,
 				F2B1DBEB256565110053146E /* LandmarkRow.swift */,
 				F2B0DD4C2562C0C7001C091F /* Models */,
@@ -303,6 +306,7 @@
 				F2B0DD13256112A3001C091F /* LandmarkDetail.swift in Sources */,
 				F2B0DD472562B8A8001C091F /* MapView.swift in Sources */,
 				F2B0DD11256112A3001C091F /* LandmarksApp.swift in Sources */,
+				F2400B742568E15B00AAFB44 /* LandmarkList.swift in Sources */,
 				F2B0DD422562B3E5001C091F /* CircleImage.swift in Sources */,
 				F2B1DBEC256565110053146E /* LandmarkRow.swift in Sources */,
 				F2B1DBE7256563B50053146E /* Landmark.swift in Sources */,
@@ -464,7 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Landmarks/Preview\\ Content";
 				DEVELOPMENT_TEAM = CWW3CV2X72;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
@@ -486,7 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Landmarks/Preview\\ Content";
 				DEVELOPMENT_TEAM = CWW3CV2X72;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
