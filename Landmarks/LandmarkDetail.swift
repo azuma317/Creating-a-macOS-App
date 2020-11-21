@@ -12,22 +12,23 @@ struct LandmarkDetail: View {
 
     var body: some View {
         VStack {
-            MapView()
+            MapView(coordinate: landmark.locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)
 
-            CircleImage()
+            CircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
 
             VStack(alignment: .leading) {
-                Text("Munchlax")
+                Text(landmark.name)
                     .font(.title)
-                HStack {
-                    Text("Big Eater")
+
+                HStack(alignment: .top) {
+                    Text(landmark.park)
                         .font(.subheadline)
                     Spacer()
-                    Text("Pokemon")
+                    Text(landmark.state)
                         .font(.subheadline)
                 }
             }
