@@ -21,6 +21,7 @@
 		F2B1DBE7256563B50053146E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1DBE6256563B50053146E /* Landmark.swift */; };
 		F2B1DBEC256565110053146E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1DBEB256565110053146E /* LandmarkRow.swift */; };
 		F2B1DBF2256567020053146E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1DBF1256567020053146E /* Data.swift */; };
+		F2E250C82568F2E0009A6DC3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E250C72568F2E0009A6DC3 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F2B1DBE6256563B50053146E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		F2B1DBEB256565110053146E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		F2B1DBF1256567020053146E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F2E250C72568F2E0009A6DC3 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			children = (
 				F2B1DBE6256563B50053146E /* Landmark.swift */,
 				F2B1DBF1256567020053146E /* Data.swift */,
+				F2E250C72568F2E0009A6DC3 /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				F2B0DD13256112A3001C091F /* LandmarkDetail.swift in Sources */,
 				F2B0DD472562B8A8001C091F /* MapView.swift in Sources */,
 				F2B0DD11256112A3001C091F /* LandmarksApp.swift in Sources */,
+				F2E250C82568F2E0009A6DC3 /* UserData.swift in Sources */,
 				F2400B742568E15B00AAFB44 /* LandmarkList.swift in Sources */,
 				F2B0DD422562B3E5001C091F /* CircleImage.swift in Sources */,
 				F2B1DBEC256565110053146E /* LandmarkRow.swift in Sources */,
