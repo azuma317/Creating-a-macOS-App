@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F226AD202568E854001988C2 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = F226AD1F2568E854001988C2 /* landmarkData.json */; };
+		F226AD282568E980001988C2 /* turtlerock.png in Resources */ = {isa = PBXBuildFile; fileRef = F226AD272568E980001988C2 /* turtlerock.png */; };
 		F2400B742568E15B00AAFB44 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2400B732568E15B00AAFB44 /* LandmarkList.swift */; };
 		F2B0DD11256112A3001C091F /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD10256112A3001C091F /* LandmarksApp.swift */; };
 		F2B0DD13256112A3001C091F /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0DD12256112A3001C091F /* LandmarkDetail.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F226AD1F2568E854001988C2 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		F226AD272568E980001988C2 /* turtlerock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turtlerock.png; path = Landmarks/Assets.xcassets/turtlerock.imageset/turtlerock.png; sourceTree = SOURCE_ROOT; };
 		F2400B732568E15B00AAFB44 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		F2B0DD0D256112A3001C091F /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B0DD10256112A3001C091F /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
@@ -54,7 +58,6 @@
 		F2B0DD2F256112A4001C091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B0DD412562B3E5001C091F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		F2B0DD462562B8A8001C091F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		F2B1DBD225655F9C0053146E /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		F2B1DBE6256563B50053146E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		F2B1DBEB256565110053146E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		F2B1DBF1256567020053146E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -169,7 +172,8 @@
 		F2B1DBD125655F6E0053146E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F2B1DBD225655F9C0053146E /* landmarkData.json */,
+				F226AD272568E980001988C2 /* turtlerock.png */,
+				F226AD1F2568E854001988C2 /* landmarkData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -277,8 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F226AD282568E980001988C2 /* turtlerock.png in Resources */,
 				F2B0DD18256112A4001C091F /* Preview Assets.xcassets in Resources */,
 				F2B0DD15256112A4001C091F /* Assets.xcassets in Resources */,
+				F226AD202568E854001988C2 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
