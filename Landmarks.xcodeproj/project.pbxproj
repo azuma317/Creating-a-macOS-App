@@ -27,6 +27,7 @@
 		F2E250DB2568F895009A6DC3 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E250DA2568F895009A6DC3 /* BadgeSymbol.swift */; };
 		F2E250E025690720009A6DC3 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E250DF25690720009A6DC3 /* RotatedBadgeSymbol.swift */; };
 		F2E250E525690777009A6DC3 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E250E425690777009A6DC3 /* BadgeBackground.swift */; };
+		F2E250EB256AA78F009A6DC3 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E250EA256AA78F009A6DC3 /* Hike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		F2E250DA2568F895009A6DC3 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		F2E250DF25690720009A6DC3 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		F2E250E425690777009A6DC3 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		F2E250EA256AA78F009A6DC3 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				F2B1DBE6256563B50053146E /* Landmark.swift */,
 				F2B1DBF1256567020053146E /* Data.swift */,
 				F2E250C72568F2E0009A6DC3 /* UserData.swift */,
+				F2E250EA256AA78F009A6DC3 /* Hike.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E250EB256AA78F009A6DC3 /* Hike.swift in Sources */,
 				F2E250CE2568F7DB009A6DC3 /* HexagonParameters.swift in Sources */,
 				F2B0DD13256112A3001C091F /* LandmarkDetail.swift in Sources */,
 				F2E250D62568F855009A6DC3 /* Badge.swift in Sources */,
