@@ -28,6 +28,7 @@
 		F2E250E025690720009A6DC3 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E250DF25690720009A6DC3 /* RotatedBadgeSymbol.swift */; };
 		F2E250E525690777009A6DC3 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E250E425690777009A6DC3 /* BadgeBackground.swift */; };
 		F2E250EB256AA78F009A6DC3 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E250EA256AA78F009A6DC3 /* Hike.swift */; };
+		F2E250F0256AA90D009A6DC3 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E250EF256AA90D009A6DC3 /* HikeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		F2E250DF25690720009A6DC3 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		F2E250E425690777009A6DC3 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		F2E250EA256AA78F009A6DC3 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		F2E250EF256AA90D009A6DC3 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		F2E250F4256BF776009A6DC3 /* hikeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,7 @@
 				F2B0DD12256112A3001C091F /* LandmarkDetail.swift */,
 				F2B1DBEB256565110053146E /* LandmarkRow.swift */,
 				F2E250CD2568F7DB009A6DC3 /* HexagonParameters.swift */,
+				F2E250EF256AA90D009A6DC3 /* HikeView.swift */,
 				F2B0DD4C2562C0C7001C091F /* Models */,
 				F2B0DD4B2562C01A001C091F /* Supporting Views */,
 				F2B1DBD125655F6E0053146E /* Resources */,
@@ -195,6 +199,7 @@
 			children = (
 				F226AD272568E980001988C2 /* turtlerock.png */,
 				F226AD1F2568E854001988C2 /* landmarkData.json */,
+				F2E250F4256BF776009A6DC3 /* hikeData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 				F2B0DD13256112A3001C091F /* LandmarkDetail.swift in Sources */,
 				F2E250D62568F855009A6DC3 /* Badge.swift in Sources */,
 				F2B0DD472562B8A8001C091F /* MapView.swift in Sources */,
+				F2E250F0256AA90D009A6DC3 /* HikeView.swift in Sources */,
 				F2B0DD11256112A3001C091F /* LandmarksApp.swift in Sources */,
 				F2E250DB2568F895009A6DC3 /* BadgeSymbol.swift in Sources */,
 				F2E250C82568F2E0009A6DC3 /* UserData.swift in Sources */,
