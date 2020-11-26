@@ -20,7 +20,37 @@ struct HikeView: View {
     }
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                HikeGraph(hike: hike, path: \.elevation)
+                    .frame(width: 50, height: 30)
+                    .animation(nil)
+
+                VStack(alignment: .leading) {
+                    Text(hike.name)
+                        .font(.headline)
+                    Text(hike.distanceText)
+                }
+
+                Spacer()
+
+                Button(action: {
+                    withAnimation {
+                        self.showDetail.toggle()
+                    }
+                }) {
+                    Image(systemName: "chevron.right.circle")
+                        .imageScale(.large)
+                        .rotationEffect(.degrees(showDetail ? 90 : 0))
+                        .scaleEffect(showDetail ? 1.5 : 1)
+                        .padding()
+                }
+            }
+
+            if showDetail {
+                
+            }
+        }
     }
 }
 
